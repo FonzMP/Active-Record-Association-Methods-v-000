@@ -4,6 +4,7 @@ class Artist < ActiveRecord::Base
 
   def get_first_song
     songs = self.songs.first
+    puts songs
   end
 
   def get_genre_of_first_song
