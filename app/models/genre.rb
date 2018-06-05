@@ -17,5 +17,6 @@ class Genre < ActiveRecord::Base
     artist_list = self.artists
     artist_list.collect do |t|
       t.name
+    end
   end
 end
